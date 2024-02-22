@@ -31,8 +31,16 @@ function divide(a, b) {
   function makeInt(n) {
     return parseInt(n,10);
   }
-  console.log(makeInt())
+  console.log(makeInt("10"))
+  console.log(makeInt('0x2328'))
+  console.log(makeInt('sldkjflksjf'))
 
   function preserveDecimal(n) {
-    return parseFloat(n);
+    return parseFloat(n) ;
   }
+  console.log(preserveDecimal());
+  console.log(preserveDecimal('2.222'));
+  console.log(preserveDecimal('sldkjflksjf'));
+ 
+  
+
